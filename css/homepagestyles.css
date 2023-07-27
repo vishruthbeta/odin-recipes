@@ -1,0 +1,39 @@
+.header {
+    background: rgb(134, 43, 13);
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 1;
+}
+
+body {
+    background-color: rgb(255, 249, 201);
+}
+
+.column {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    text-align: center;
+    margin: 20px;
+}
+
+.recipe a {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe img {
+    width: 300 px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    /*border-radius: 50%;*/
+}
+
+
